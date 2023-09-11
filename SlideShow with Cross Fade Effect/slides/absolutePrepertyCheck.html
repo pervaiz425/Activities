@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        .parent{
+            /* top: 30px; */
+            /* left: 30px; */
+            position: relative;
+            background-color: pink;
+        }
+        .child-1{
+            width: 80%;
+            height: 80%;
+            top:30px;
+            left: 30px;
+            position: absolute;
+            background-color: lightgreen;
+        }
+        .child-2{
+            top: 60px;
+            left: 60px;
+            position: absolute;
+            background-color: lightcoral;
+        }
+        .child-3{
+            top: 90px;
+            left: 90px;
+            position: absolute;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <img src="image1.jpg" id="img1">
+    <img src="image2.jpg" id="img2">
+    <img src="image3.jpg" id="img3">
+    <img src="image4.jpg" id="img4">
+    <img src="image5.jpg" id="img5">
+
+    <div class="parent">
+        <div class="child-1">Lorem ipsum dolor sit amet. lorem3 Lorem. Lorem, ipsum.</div>
+        <div class="child-2">Lorem ipsum dolor sit amet.</div>
+        <div class="child-3">Lorem ipsum dolor sit amet.</div>
+    </div>
+
+    
+</body>
+</html>
