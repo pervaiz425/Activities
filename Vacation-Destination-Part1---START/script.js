@@ -36,11 +36,11 @@ function createDestinationCard(name, location, PhotoURL, description) {
     function isValidURL(url) {
         // Regular expression for a valid URL pattern
         var urlPattern = /^(https?:\/\/)?([a-z0-9-]+\.)+[a-z]{2,6}\/?([a-z0-9\-._~:/?#[\]@!$&'()*+,;=]*)$/i;
-        
+
         // Test the URL against the pattern
         return urlPattern.test(url);
-      }
-      
+    }
+
     const isValid = isValidURL(PhotoURL);
 
     if (isValid) {
